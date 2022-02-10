@@ -8,17 +8,19 @@ body {
     max-width: 90%;
     position: relative;
     margin: auto;
-    height: 300px;
+    height: 700px;
     margin-bottom: 15px;
 }
-        /* Картинка мастабируется по отношению к родительскому элементу
-        .slider .item img {
-            object-fit: cover;
-            width: 100%;
-            height: 300px;
-            border: none !important;
-            box-shadow: none !important;
-        } */
+
+/* Картинка мастабируется по отношению к родительскому элементу */ 
+.slider .item img {
+    object-fit: contain;
+    width: 100%;
+    height: 700px;
+    border: none !important;
+    box-shadow: none !important;
+}
+        
 /* Кнопки вперед и назад */
 .slider .prev, .slider .next {
     cursor: pointer;
@@ -107,3 +109,10 @@ a {
     position: absolute;
     top: 90%
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
