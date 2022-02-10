@@ -1,0 +1,40 @@
+body {
+    background: -webkit-linear-gradient(90deg,#85b0f2,#00ddcf,#ede067); 
+    background: linear-gradient(90deg,#85b0f2,#00ddcf,#ede067); 
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.list{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.item {
+    font-family: 'Lobster', cursive;
+    font-weight: 700;  
+    font-size: 70px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.link {
+    color: #2F4F4F;
+}
+
+.button__arrow {
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
